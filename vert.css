@@ -39,7 +39,7 @@ header>nav>a{
 .main{
  color: white;
  width: 100vw;
- padding: 140px 220px;
+ padding: 140px 250px;
  display: flex;
  justify-items: center;
  flex-direction: column;
@@ -72,7 +72,8 @@ header>nav>a{
    justify-items: center;
 }
 .box1_1{
-    padding: 0px 0px;
+    padding: 10px 0px;
+    gap: 0px;
 }
 .h2{
     font-size: 64px;
@@ -94,28 +95,31 @@ header>nav>a{
     font-size: 16px;
     color:#838383;
     padding: 30px 0px;
+    margin-left: -200px;
     
 }
 .rut>h2{
     font-size: 40px;
     justify-content: flex-end;
+    margin-left: -200px;
 }
 .foto1{
     justify-content: center;
-padding: 10px 0px;
+    padding: 50px -50px;
     height: 770px;
     display: flex;
     width: -900px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
     
 }
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 60px;
-    padding:150px 200px ;
+    gap: 80px;
+    padding:150px 250px ;
     height: 1700px;
     justify-content: center;
     align-items: center;
@@ -192,7 +196,7 @@ font-size: 20px;
      justify-items: center;
      flex-direction: column;
      margin-top: -300px;
-     padding: 0px 230px;
+     padding: 0px 250px;
      line-height: 50px;
      
 }
@@ -365,7 +369,7 @@ font-size: 20px;
     display: flex;
     justify-content: space-between;
     width: 550px;
-    padding: 10px px;
+    padding: 10px ;
     border-bottom: 1px solid #868686;
     margin-left: 120px;
 }
@@ -373,4 +377,307 @@ font-size: 20px;
     font-size: 30px;
     font-weight: 100;
 
+}
+@media(max-width: 1802px){
+    .h2{
+        font-size: 64px;
+        margin-left: 100px;
+    }
+    .p1{
+        font-size: 16px;
+        margin-left: 100px;
+    }
+    .rut>h2{
+        font-size: 42px;
+        margin-left: -300px;
+
+    }
+    .p2{
+        margin-left: -300px;
+    }
+}
+@media(max-width: 1630px){
+    .h2{
+        font-size: 58px;
+        margin-left: 100px;
+    }
+    .p1{
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    .rut>h2{
+        font-size: 38px;
+        margin-left: -300px;
+
+    }
+    .pa2{
+        font-size: 28px;
+    }
+    .p2{
+        margin-left: -300px;
+    }
+    @media(max-width:1420px ){
+        .parent{
+            gap: 30px;
+        }
+    }
+    @media(max-width:1500px ){
+        .parent{
+            gap: 25px;
+        }
+    }
+}
+@media(max-width: 1390px){
+    .h2{
+        font-size: 58px;
+        margin-left: 100px;
+    }
+    .p1{
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    .rut>h2{
+        font-size: 38px;
+        margin-left: -300px;
+
+    }
+    .p2{
+        margin-left: -300px;
+    }
+}@media(max-width:1310px ){
+    .parent{
+        gap: 20px;
+    }
+}
+@media(max-width:1265px ){
+    .parent{
+        gap: 10px;
+    }
+}
+
+@media(max-width: 1260px){
+    .h2{
+        font-size: 58px;
+        margin-left: 200px;
+    }
+    .p1{
+        font-size: 14px;
+        margin-left: 200px;
+    }
+    .rut>h2{
+        font-size: 38px;
+
+    }
+    .foto1{
+        width: 700px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 230px;
+
+    }
+    .email{
+        width: 550px;
+    }
+    @media(max-width:1240px ){
+    .email{
+        width: 520px;
+    }    
+    }
+     
+    @media(max-width:1210px ){
+        .parent{
+            gap: 0px;
+            padding: 100px 50px;
+        }
+        .text1{
+            margin-top: -300px;
+        }
+        .email{
+            width: 470px;
+        }
+        .div3{
+            margin-left: -30px;
+        }
+    }
+    @media(max-width:1195px ){
+        .parent{
+            gap: 0px;
+            height: 1500px;
+            padding: 150px 150px;
+            height: 1400px;
+            padding: 0px 50px;
+        }
+        .email{
+            width: 420px;
+        }
+        .text1{
+            margin-top: -300px;
+        }
+    }
+    @media(max-width:1195px ){
+        .parent{
+            gap: 0px;
+            height: 1500px;
+            padding: 150px 150px;
+            height: 1400px;
+            padding: 0px 100px;
+            margin-left: 50px;
+        }
+        .div1{
+            margin-left: 130px;
+        }
+        .div2{
+            margin-left: -130px;
+        }
+    }
+}
+@media(max-width: 1170px){
+    .h2{
+        font-size: 58px;
+        margin-left: 300px;
+    }
+    .p1{
+        font-size: 14px;
+        margin-left: 300px;
+    }
+    .rut>h2{
+        font-size: 38px;
+
+    }.text1{
+        margin-top: -330px;
+    }
+    .foto1{
+        width: 700px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 230px;
+
+    }
+    .div1_p1{
+        font-size: 22px;
+    }
+    .div1_p2{
+        font-size: 14px;
+
+    }
+    .div2_p1{
+        font-size: 22px;
+    }
+    .email{
+        width: 330px;
+    }
+    @media(max-width: 1120px){
+        .foto1{
+            width: 700px;
+        height: 630px;
+        margin-top: 100px;
+        margin-left: 230px;
+    
+        }
+        .email{
+            width: 250px;
+        }
+        .parent{
+            gap: 0px;
+            height: 1500px;
+            padding: 150px 150px;
+            height: 1400px;
+            padding: 0px 150px;
+            margin-left: 80px;
+        }  
+    }
+    @media(max-width: 1100px){
+        .foto1{
+            width: 700px;
+        height: 600px;
+        margin-top: 100px;
+        margin-left: 200px;
+    
+        }
+        .email{
+            width: 200px;
+            margin-left: 60px;
+        }  
+    }
+}
+@media(max-width: 1070px){
+    .h2{
+        font-size: 58px;
+        margin-left: 400px;
+    }
+    .p1{
+        font-size: 14px;
+        margin-left: 400px;
+    }
+    .rut>h2{
+        font-size: 38px;
+        margin-left: -300px;
+
+    }
+    .p2{
+        margin-left: -300px;
+    }
+    .foto1{
+        width: 700px;
+    height: 570px;
+    margin-top: 100px;
+    margin-left: 150px;
+
+    }
+    .div2_p2{
+        font-size: 14px;
+    }
+    .div1_p2{
+        font-size: 14px;
+    }
+    .pa2{
+        margin-left: -110px;
+    }  
+    .email{
+        width: 200px;
+        margin-left: -110px;
+    }  
+    .Branding3>p{
+        margin-left: 30px;
+    }
+    .informasion{
+        margin-left: -10px;
+    }
+    .div2{
+        margin-left: -200px;
+    }
+    
+}
+@media(max-width: 975px){
+    .h2{
+        font-size: 58px;
+        margin-left: 500px;
+    }
+    .p1{
+        font-size: 14px;
+        margin-left: 500px;
+    }
+    .rut>h2{
+        font-size: 38px;
+
+    }
+    .p2{
+        margin-left: -300px;
+    }
+    .foto1{
+        width: 700px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+    }  
+    @media(max-width: 900px){
+        .foto1{
+            width: 500px;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 200px;
+    
+        }  
+    }
 }
